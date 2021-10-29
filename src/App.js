@@ -15,6 +15,7 @@ const App = () => {
           </Route>
         </Switch>
         {/* <Footer></Footer> */}
+        {/* footer */}
       </Router>
     </div>
   );
