@@ -1,9 +1,19 @@
 import React from "react";
-import Footer from "../Footer/Footer";
-import Header from "../Header/Header";
+import About from "../About/About";
+import Banner from "../Banner/Banner";
+import Contact from "../Contact/Contact";
+
+import Tourses from "../Tourses/Tourses";
 
 const Home = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Banner></Banner>
+      <About></About>
+      <Tourses></Tourses>
+      <Contact></Contact>
+    </div>
+  );
 };
 
 export default Home;

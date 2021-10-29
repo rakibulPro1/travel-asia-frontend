@@ -1,0 +1,24 @@
+.footer {
+  background-color: rgba(0, 0, 0, 0.747);
+  color: white;
+}
+
+.footer-logo {
+  color: #ff0143;
+  font-size: 32px;
+  font-weight: 600;
+}
+.footer-para {
+  color: rgba(255, 255, 255, 0.712);
+  font-size: 17px;
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.712);
+  font-size: 17px;
+  text-decoration: none;
+  list-style: none;
+}
+.footer-insta img {
+  border: none;
+  border-radius: 5px;
+}

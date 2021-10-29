@@ -6,7 +6,8 @@ import "./Header.css";
 const Header = () => {
   return (
     <div>
-      <Navbar bg="light" expand="lg">
+      {/* navbar  */}
+      <Navbar bg="light" expand="lg" style={{ lineHeight: "50px" }}>
         <Container>
           <div className="logo">TravelAsia</div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -15,8 +16,25 @@ const Header = () => {
               <NavLink to="/" className="menu-link">
                 Home
               </NavLink>
-              <NavLink to="/tours" className="menu-link">
+              <NavLink to="/tourses" className="menu-link">
                 Tours
+              </NavLink>
+              <NavLink to="/about" className="menu-link">
+                About Us
+              </NavLink>
+              <NavLink to="/contact" className="menu-link">
+                Contact
+              </NavLink>
+              <NavLink
+                to="/contact"
+                className="manu-link"
+                style={{
+                  color: "#ff0143",
+                  marginTop: "2px",
+                  marginLeft: "20px",
+                }}
+              >
+                Login
               </NavLink>
             </Nav>
           </Navbar.Collapse>

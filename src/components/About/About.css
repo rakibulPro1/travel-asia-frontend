@@ -1,0 +1,18 @@
+.about-title {
+  font-weight: bold;
+  font-size: 40;
+}
+.about-para {
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.699);
+}
+.about-icon {
+  color: #ff0143;
+  font-size: 20px;
+}
+.about-rules {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.644);
+  margin-left: 10px;
+}
