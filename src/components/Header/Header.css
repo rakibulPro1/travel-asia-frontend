@@ -1,0 +1,13 @@
+.menu-link {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ff0143;
+  margin: 0px 6px;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+.logo {
+  color: green;
+  font-size: 22px;
+  font-weight: 600;
+}
