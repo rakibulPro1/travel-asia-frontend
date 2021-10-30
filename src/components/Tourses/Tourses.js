@@ -5,7 +5,7 @@ import Tours from "../Tours/Tours";
 const Tourses = () => {
   const [tourses, setTourses] = useState([]);
   useEffect(() => {
-    fetch("./tours.json")
+    fetch("http://localhost:5000/tourses")
       .then((res) => res.json())
       .then((data) => setTourses(data));
   }, []);

@@ -1,9 +1,11 @@
 import React from "react";
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import useFirebase from "../../hooks/useFirebase";
 import "./Header.css";
 
 const Header = () => {
+  const { user, handleSignInWithGoogle, logOut } = useFirebase();
   return (
     <div>
       {/* navbar  */}
@@ -25,17 +27,33 @@ const Header = () => {
               <NavLink to="/contact" className="menu-link">
                 Contact
               </NavLink>
-              <NavLink
-                to="/contact"
-                className="manu-link"
-                style={{
-                  color: "#ff0143",
-                  marginTop: "2px",
-                  marginLeft: "20px",
-                }}
-              >
-                Login
-              </NavLink>
+              {user.email ? (
+                <button
+                  onClick={logOut}
+                  className=" border-0 bg-transparent"
+                  style={{
+                    color: "#ff0143",
+                    marginTop: "2px",
+                    marginLeft: "20px",
+                    fontSize: "18px",
+                  }}
+                >
+                  Logout
+                </button>
+              ) : (
+                <button
+                  onClick={handleSignInWithGoogle}
+                  className=" border-0 bg-transparent"
+                  style={{
+                    color: "#ff0143",
+                    marginTop: "2px",
+                    marginLeft: "20px",
+                    fontSize: "18px",
+                  }}
+                >
+                  Login
+                </button>
+              )}
             </Nav>
           </Navbar.Collapse>
         </Container>
