@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./Tours.css";
 
 const Tours = (props) => {
-  const { img, name, description, price } = props.tours;
+  const { _id, img, name, description, price } = props.tours;
 
   return (
     <div className="my-3">
@@ -19,13 +19,12 @@ const Tours = (props) => {
             </h5>
             <Card.Text>{description.slice(0, 220)}</Card.Text>
 
-            <Link to="/">
-              <button
-                className="btn btn-sm"
-                style={{ backgroundColor: "#00e5cc", color: "white" }}
-              >
-                Booking Now
-              </button>
+            <Link
+              className="btn btn-sm"
+              style={{ backgroundColor: "#ff0143", color: "white" }}
+              to={`/tours/${_id}`}
+            >
+              proceed to booking
             </Link>
           </Card.Body>
         </Card>

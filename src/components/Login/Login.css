@@ -1,0 +1,41 @@
+.login-page {
+  /* background: url("https://i.ibb.co/YcqSC5r/folk-pattern-black.png"); */
+  background-color: rgba(0, 0, 0, 0.438);
+}
+.login-box {
+  background-color: white;
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px 5px 30px 5px;
+  border: none;
+  border-radius: 10px;
+}
+.login-btn {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #00e5cc;
+  border: none;
+  border-radius: 20px;
+  padding: 7px 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 19px;
+}
+.google-btn {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #ebe8e8;
+  border: none;
+  border-radius: 20px;
+  padding: 7px 20px;
+  color: black;
+
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 450px) {
+  .login-box {
+    width: 100%;
+  }
+}

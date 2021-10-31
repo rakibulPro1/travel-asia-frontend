@@ -24,7 +24,7 @@ const About = () => {
             <div>
               <p>
                 <span>
-                  <i class="fas fa-angle-double-right about-icon"></i>
+                  <i className="fas fa-angle-double-right about-icon"></i>
                 </span>
                 <span className="about-rules">
                   Every employee wears a photo ID badge.
@@ -32,7 +32,7 @@ const About = () => {
               </p>
               <p>
                 <span>
-                  <i class="fas fa-angle-double-right about-icon"></i>
+                  <i className="fas fa-angle-double-right about-icon"></i>
                 </span>
                 <span className="about-rules">
                   Mobiles are custom wrapped for easy identification.
@@ -40,7 +40,7 @@ const About = () => {
               </p>
               <p>
                 <span>
-                  <i class="fas fa-angle-double-right about-icon"></i>
+                  <i className="fas fa-angle-double-right about-icon"></i>
                 </span>
                 <span className="about-rules">
                   We are a fully insured nationally ranked brand.
@@ -48,7 +48,7 @@ const About = () => {
               </p>
               <p>
                 <span>
-                  <i class="fas fa-angle-double-right about-icon"></i>
+                  <i className="fas fa-angle-double-right about-icon"></i>
                 </span>
                 <span className="about-rules">
                   All work is backed by our exclusive “Streak-Free Guarantee”.
@@ -56,7 +56,7 @@ const About = () => {
               </p>
               <p>
                 <span>
-                  <i class="fas fa-angle-double-right about-icon"></i>
+                  <i className="fas fa-angle-double-right about-icon"></i>
                 </span>
                 <span className="about-rules">
                   Our services are more affordable than you think.
